@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    background-image: url("IMG_8764.jpg");
+ }
+
+     h1,
+     h2,
+     h3 {
+         font-family: "Sriracha", sans-serif;
+         font-weight: 500;
+         text-align: center;
+         color: #031566;
+     }
+
+     .container {
+         width: 60%;
+         margin: auto;
+         background: white;
+         padding: 20px;
+         box-shadow: 0 0 10px rgba(205, 55, 5, 0.1);
+         margin-top: 50px;
+     }
+
+     button {
+         font-family: "Sriracha", sans-serif;
+         font-weight: 500;
+         /* Light */
+         background-color: #4447ff;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+         cursor: pointer;
+     }
+
+     button:hover {
+         background-color: #6348ff;
+     }
+
+     .profile-pic {
+         width: 150px;
+         height: 150px;
+         border-radius: 50%;
+         /* ทำให้รูปภาพเป็นวงกลม */
+         margin: auto;
+         display: block;
+         border: 3px solid #000000;
+         /* เพิ่มเส้นขอบสีเทาอ่อน */
+         box-shadow: 0 1px 3px rgba(22, 22, 0, 0.1);
+         /* เพิ่มเงาเล็กน้อย */
+     }
+
+     p {
+        font-family: "Sriracha", sans-serif;
+        font-weight: 500;
+        text-align: center;
+        color: #2e006b;
+    }
+
+    td , th {
+        font-family:"Sriracha", sans-serif;
+        border: 1px solid ;
+        text-align: left;
+        padding: 8px;
+        color: #001d6b;
+       }
